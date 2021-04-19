@@ -1,0 +1,197 @@
+body {
+  background: linear-gradient(gray, lightSteelBlue);
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  align-content: center;
+  position: relative;
+}
+
+button {
+  animation-duration: 3s;
+  background-color: white;
+  width: 30%;
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+.enabled {
+  background-color: white;
+  width: 30%;
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+button:disabled {
+  background-color: grey;
+  width: 30%;
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+.card {
+  transition: transform 3s ease-in-out;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.card:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.container-yinyang {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+div {
+  display: inline;
+}
+
+.floatleft {
+  float: left;
+  margin: 50px;
+  border-radius: 10%;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-input {
+  width: 30%;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.form-input-finished {
+  width: 30%;
+  font-size: 30px;
+  border-radius: 10px;
+  color: blue;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 90px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 60px;
+}
+
+iframe {
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+@keyframes button {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: rgb(74, 85, 136);
+  }
+}
+
+label {
+  font-size: 30px;
+}
+
+li {
+  display: inline;
+}
+
+.link {
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 2px 10px;
+  text-decoration: none;
+  font-size: 50px;
+  transition: transform 2s ease-out;
+}
+
+.link:hover {
+  border-bottom: 0.1em solid paleturquoise;
+  text-decoration: none;
+}
+
+.map {
+  margin: 50px;
+}
+
+.nameanimation:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.nameanimation {
+  transition: transform 3s ease-in-out;
+}
+
+p {
+  text-align: left;
+  font-size: 30px;
+}
+
+.topnav {
+  padding: 1px;
+  font-size: 50px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
