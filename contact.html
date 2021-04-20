@@ -52,7 +52,7 @@
             placeholder="Joe"
             required
           /><br />
-          <!-- The name attribute is necessary. It provides the value to the server when the form is submitted. -->
+
           <label for="lastName">Last name:</label>
           <input
             type="text"
@@ -76,14 +76,15 @@
           /><br />
 
           <label for="comment">Comment:</label>
-          <input
+          <textarea
             type="text"
             class="form-input"
             id="comment"
             name="comment"
-            placeholder="Comment"
+            placeholder="Please leave a comment"
             required
-          /><br />
+          ></textarea
+          ><br />
         </fieldset>
         <fieldset>
           <input type="radio" name="gender" value="male" id="male" />
