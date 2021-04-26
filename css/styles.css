@@ -196,8 +196,7 @@ p {
 .recycledlives {
   margin-right: 2rem;
   border-radius: 10%;
-  /* width: 100%;
-  display: block; */
+  align-self: flex-start;
 }
 
 textarea {
