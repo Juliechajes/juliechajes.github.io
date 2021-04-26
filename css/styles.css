@@ -77,11 +77,6 @@ div {
   display: inline;
 }
 
-.recycledlives {
-  margin-right: 2rem;
-  border-radius: 10%;
-}
-
 fieldset {
   border: none;
 }
@@ -196,6 +191,12 @@ li {
 p {
   text-align: left;
   font-size: 30px;
+}
+
+.recycledlives {
+  margin-right: 2rem;
+  border-radius: 10%;
+  width: 100%;
 }
 
 textarea {
